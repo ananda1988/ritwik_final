@@ -9,10 +9,8 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: 25% 50% 25%;
-            grid-template-rows: 50px 1fr 1fr 1fr;
-            background-color: lightblue;
-    
+            grid-template-columns: 22% 50% 22%;
+            grid-template-rows: 50px 1fr 1fr 1fr;    
             height: 100vh;
             gap: 10px;            
         }
@@ -23,22 +21,22 @@
         .members{
             border: black solid 5px;
             grid-area: 2/1/6/2;
-            background-color:rgb(0, 191, 255);
+            background-color:rgba(0, 191, 255, 0.5);
         }
         .info{
             border: black solid 5px;
             grid-area: 2/2/3/3;
-            background-color:rgb(0, 191, 255);
+            background-color:rgba(0, 191, 255, 0.5);
         }
         .leaderboard{
             border: black solid 5px;
             grid-area:2/3/6/4 ;
-            background-color:rgb(0, 191, 255);
-        }
+            background-color:rgba(0, 191, 255, 0.5);
+         }
         .suggested_books{
             border: solid black 5px;
             grid-area: 3/2/5/3;
-            background-color: rgb(0, 191, 255);
+            background-color:rgba(0, 191, 255, 0.5);
         }
         .nav{
             grid-column: 1/4;
@@ -124,6 +122,11 @@
     .fd_Form{
         padding-top: 50px;
     }
+    body{
+            background-image: url('../static/login.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
     </style>
 </head>
 <body>
